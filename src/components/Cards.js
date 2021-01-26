@@ -7,7 +7,7 @@ class Cards extends React.Component {
 
     render() {
         return (
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className="m-3">
                 <Card.Img variant="top" src={this.props.card.Img} />
                 <Card.Body>
                     <Card.Title>{this.props.card.Title}</Card.Title>
