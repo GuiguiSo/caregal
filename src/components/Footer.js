@@ -15,8 +15,10 @@ class Footer extends React.Component {
                         <Col  xs={12} md={16}>
                             <ListGroup horizontal>
                                 <ListGroup.Item variant="secondary" action href="Mention légale">Mention légale</ListGroup.Item>
-                                <ListGroup.Item variant="secondary" action href="Confidentialité">Confidentialité</ListGroup.Item>
                                 <ListGroup.Item variant="secondary" action href="Condition d'utilisation">Condition d'utilisation </ListGroup.Item>
+                            </ListGroup>
+                            <ListGroup horizontal>
+                                <ListGroup.Item variant="secondary" action href="Confidentialité">Confidentialité</ListGroup.Item>
                             </ListGroup>
                             <br/>
                             <p className='text-center'>2021 - NomDuSite - Tous droits réservés</p>
